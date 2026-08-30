@@ -24,4 +24,22 @@ pinout:
   ui[7]: "DIN7"
   # Outputs
   uo[0]: "DOUT0"
-  uo[1]
+  uo[1]: "DOUT1"
+  uo[2]: "DOUT2"
+  uo[3]: "DOUT3"
+  uo[4]: "DOUT4"
+  uo[5]: "DOUT5"
+  uo[6]: "DOUT6"
+  uo[7]: "DOUT7"
+  # Bidirectional pins
+  uio[0]: "WR_EN"
+  uio[1]: "RD_EN"
+  uio[2]: "SOP"
+  uio[3]: "EOP"
+  uio[4]: "PKT_ERR"
+  uio[5]: "FULL"
+  uio[6]: "EMPTY"
+  uio[7]: "DROP"
+
+# Do not change!
+yaml_version: 6
